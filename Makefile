@@ -1,0 +1,7 @@
+hashmap: hashmap.o
+	gcc hashmap.o -o hashmap
+
+hashmap.o: hashmap.c
+	gcc hashmap.c -o hashmap.o
+
+

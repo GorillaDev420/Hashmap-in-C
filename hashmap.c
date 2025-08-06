@@ -86,7 +86,7 @@ void debugprint_map(Map* map){
 				void* value;
 				switch(keytype){
 					case INT:
-						*(int*)slot->node->key;
+					*(int*)slot->node->key;
 					break;
 					case CHAR:
 					duplicate = *(char*)key == *(char*)slot->node->key;

@@ -10,6 +10,12 @@ int main(int argc, char** argv){
 	Map* map = map_init(key,value,10);
 	int mykey = 9;
 	char[] myvalue = "Matty Lejon <3";
-	if(map_put(map,&mykey,&myvalue))
+	if(map_put(map,&mykey,&myvalue)){
+
+		printf("value added successfully (I think)\n");
+
+		
+
+	}
 }
 
